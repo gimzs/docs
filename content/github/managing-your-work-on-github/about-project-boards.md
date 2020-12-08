@@ -1,67 +1,47 @@
----
-title: About project boards
-intro: 'Project boards on {% data variables.product.product_name %} help you organize and prioritize your work. You can create project boards for specific feature work, comprehensive roadmaps, or even release checklists. With project boards, you have the flexibility to create customized workflows that suit your needs.'
-redirect_from:
-  - /articles/about-projects/
-  - /articles/about-project-boards
-versions:
-  free-pro-team: '*'
-  enterprise-server: '*'
-  github-ae: '*'
----
 
-Project boards are made up of issues, pull requests, and notes that are categorized as cards in columns of your choosing. You can drag and drop or use keyboard shortcuts to reorder cards within a column, move cards from column to column, and change the order of columns.
 
-Project board cards contain relevant metadata for issues and pull requests, like labels, assignees, the status, and who opened it. {% data reusables.project-management.edit-in-project %}
+milfed.com
+Expand
+GD
+milfed.com
+ Summary Raw Data
+Attribute	Value
+0.lookup.axfr.servers	
+{u'status': u'ERROR', u'server': u'198.51.44.3', u'error': u'dns: bad xfr rcode: 4'}, {u'status': u'ERROR', u'server': u'198.51.45.3', u'error': u'dns: bad xfr rcode: 4'}, {u'status': u'ERROR', u'server': u'198.51.44.67', u'error': u'dns: bad xfr rcode: 4'}, {u'status': u'ERROR', u'server': u'198.51.45.67', u'error': u'dns: bad xfr rcode: 4'}, {u'status': u'ERROR', u'server': u'156.154.142.3', u'error': u'dial tcp 156.154.142.3:53: i/o timeout'}, {u'status': u'ERROR', u'server': u'156.154.140.3'
+0.lookup.axfr.support	
+False
+0.lookup.axfr.truncated	
+False
+443.https.dhe.dh_params.generator.length	
+8
+443.https.dhe.dh_params.generator.value	
+Ag==
+443.https.dhe.dh_params.prime.length	
+2048
+443.https.dhe.dh_params.prime.value	
+7Ib4cKAzFuwFGnNZzR+L+Cnk0s9S3cIkjbU4mvtcpOSy2s5mUHSmhU1LHTC4K/MQ6actBXHngd+LWVI7X0MLaPHbB74Iaxsj7k3Mng5DoB7fQ4zsvr6QtFFUuS97ZHZOXdQursKerlFDWcd3nFA8Du1zBF/xTHYq2PjP/DRA0bRCYYRmQjkE+GiyYtdV7Rt0dZHgxWnBMVzbe0QuzoRYDR5mDMhEnv1ACGdd+6d2jwARh+mT+X3EvHRVINRKQS9DQhrB8pcXSSc3ay+IfhygoYmSJ9lWWnHBVjd+Op0F5+5dj4IXvOnCkzCC+fTJrknb0FS02XVN+ga41jhBtx938w==
+443.https.dhe.support	
+True
+443.https.dhe_export.support	
+False
+443.https.get.body	
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<title data-rh="true">Milfed | The #1 Best Milf Porn Site</title>
 
-You can create notes within columns to serve as task reminders, references to issues and pull requests from any repository on {% data variables.product.product_name %}, or to add information related to the project board. You can create a reference card for another project board by adding a link to a note. If the note isn't sufficient for your needs, you can convert it to an issue. For more information on converting project board notes to issues, see "[Adding notes to a project board](/articles/adding-notes-to-a-project-board)."
+<meta data-rh="true" name="dti.network" content="Milfed"/><meta data-rh="true" name="dti.url" content="/"/><meta data-rh="true" name="dti.google.category" content="topClicks"/><meta data-rh="true" name="dti.google.action" content="MILFED:PC:TOUR:139612:HOME"/><meta data-rh="true" name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0"/><meta data-rh="true" charset="utf-8"/><meta data-rh="true" name="referrer" content="always"/><meta data-rh="tr
+<script data-rh="true" async="true" src="https://www.google-analytics.com/analytics.js"></script>
+<link data-rh="true" rel="canonical" href="https://www.milfed.com"/><link data-rh="true" rel="preload" as="style" href="https://fonts.googleapis.com/css?family=Open+Sans|Josefin+Sans"/><link data-rh="true" rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans|Josefin+Sans"/><link data-rh="true" rel="icon" href="https://images-assets-ht.project1content.com/Milfed/Logos/5ece9105ed2b90.36540544.png" type="image/x-icon"/>
 
-Types of project boards:
-
-- **User-owned project boards** can contain issues and pull requests from any personal repository.
-- **Organization-wide project boards** can contain issues and pull requests from any repository that belongs to an organization.  {% data reusables.project-management.link-repos-to-project-board %} For more information, see "[Linking a repository to a project board](/articles/linking-a-repository-to-a-project-board)."
-- **Repository project boards** are scoped to issues and pull requests within a single repository. They can also include notes that reference issues and pull requests in other repositories.
-
-### Creating and viewing project boards
-
-To create a project board for your organization, you must be an organization member. Organization owners and people with project board admin permissions can customize access to the project board.
-
-If an organization-owned project board includes issues or pull requests from a repository that you don't have permission to view, the card will be redacted.  For more information, see "[Project board permissions for an organization](/articles/project-board-permissions-for-an-organization)."
-
-The activity view shows the project board's recent history, such as cards someone created or moved between columns. To access the activity view, click **Menu** and scroll down.
-
-To find specific cards on a project board or view a subset of the cards, you can filter project board cards. For more information, see "[Filtering cards on a project board](/articles/filtering-cards-on-a-project-board)."
-
-To simplify your workflow and keep completed tasks off your project board, you can archive cards. For more information, see "[Archiving cards on a project board](/articles/archiving-cards-on-a-project-board)."
-
-If you've completed all of your project board tasks or no longer need to use your project board, you can close the project board. For more information, see "[Closing a project board](/articles/closing-a-project-board)."
-
-You can also [disable project boards in a repository](/articles/disabling-project-boards-in-a-repository) or [disable project boards in your organization](/articles/disabling-project-boards-in-your-organization), if you prefer to track your work in a different way.
-
-{% data reusables.project-management.project-board-import-with-api %}
-
-### Templates for project boards
-
-You can use templates to quickly set up a new project board. When you use a template to create a project board, your new board will include columns as well as cards with tips for using project boards. You can also choose a template with automation already configured.
-
-| Template | Description |
-| --- | --- |
-| Basic kanban | Track your tasks with To do, In progress, and Done columns |
-| Automated kanban | Cards automatically move between To do, In progress, and Done columns | 
-| Automated kanban with review | Cards automatically move between To do, In progress, and Done columns, with additional triggers for pull request review status |
-| Bug triage | Triage and prioritize bugs with To do, High priority, Low priority, and Closed columns |
-
-For more information on automation for project boards, see "[About automation for project boards](/articles/about-automation-for-project-boards)."
-
-![Project board with basic kanban template](/assets/images/help/projects/project-board-basic-kanban-template.png)
-
-{% data reusables.project-management.copy-project-boards %}
-
-### Further reading
-
-- "[Creating a project board](/articles/creating-a-project-board)"
-- "[Editing a project board](/articles/editing-a-project-board)"{% if currentVersion == "free-pro-team@latest" %}
-- "[Copying a project board](/articles/copying-a-project-board)"{% endif %}
-- "[Adding issues and pull requests to a project board](/articles/adding-issues-and-pull-requests-to-a-project-board)"
-- "[Project board permissions for an organization](/articles/project-board-permissions-for-an-organization)"
-- "[Keyboard shortcuts](/articles/keyboard-shortcuts/#project-boards)"
+443.https.get.body_sha256	
+3405562248f7702b3441d7ddb5837d3fabbc3fc8194e30af9189be15b1b7357a
+443.https.get.headers.content_type	
+text/html; charset=utf-8
+443.https.get.headers.server	
+nginx
+443.https.get.headers.strict_transport_security	
+max-age=15552000; includeSubDomains
+443.https.get.headers.unknown	
+{u'value': u'tour', u'key': u'x_ats_instance_type'}, {u'value': u'Tue, 08 Dec 2020 09:17:03 GMT', u'key': u'date'}, {u'value': u'noopen', u'key': u'x_download_options'}, {u'value': u'5FCF448E-42FE72EA01BBCDF1-34CBF3', u'key': u'x_request_id'}, {u'value': u'2B25E822B6F0CD7D394C368A7F557C30503810CC8D6CB1F1B32CB8AC1E00', u'key': u'x_trace'}, {u'value': u'HOME', u'key': u'x_ats_page_type'}, {u'value': u'W/"52b66-PuyHiLayUyU9hAVyAsQUXrTRN90"', u'key': u'etag'}, {u'value': u'1962032', u'key': u'x_ats_
